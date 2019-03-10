@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">GyanApp</string>
+    <string name="nestedSV">Our Behavior shall do the following:
+        When a Snackbar appears, it shall light up a custom ToggleButton
+        we created. This is a very simple example that will form the
+        groundwork for more complex Behaviors you can implement later on
+        . I shall take you through every step, even the actually very
+        simple creation of our custom ToggleButton.
+
+        There are 4 simple steps when it comes to creating Behaviors:
+        1. Create a Custom View (Optional).
+        2. Create the Behavior.
+        3. Override methods in the Behavior Class.
+        4. Piece everything together.
+
+        1. Create a Custom View (Optional)
+        To start off we need to create a custom view. Now you’re probably thinking
+        this is such a long and perhaps difficult step! Well it can be, but
+        for this simple example we shall just extend an existing view, a simple
+        toggle button for that matter. We shall creatively call our new viewCustomToggleButton
+        as it will extend from a ToggleButton. In our new class we shall annotate it with
+        @CoordinatorLayout.DefaultBehavior(CustomToggleButtonBehaviour.class) to assign
+        a CoordinatorLayout based Behavior to this particular class. In our case, it’s a
+        Behavior in a class called CustomToggleButtonBehaviour which we shall create in step 2.
+    </string>
+</resources>
